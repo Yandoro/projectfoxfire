@@ -531,6 +531,7 @@ MonoBehaviour:
   playerSpeed: 4.5
   jumpHeight: 2
   gravityValue: -11.5
+  distToGround: 0.8
 --- !u!114 &1486929188
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed;
     public float jumpHeight;
     public float gravityValue;
+    [SerializeField] float distToGround;
 
     private void Start()
     {
@@ -34,12 +35,17 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Changes the height position of the player..
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
         }
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+    }
+
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
     }
 }
