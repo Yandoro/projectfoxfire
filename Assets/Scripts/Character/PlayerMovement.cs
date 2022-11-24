@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = gameObject.AddComponent<CharacterController>();
 
-        // get the distance to ground
     }
 
     void Update()
