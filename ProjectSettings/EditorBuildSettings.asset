@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PitchScene.unity
+    path: Assets/01_Level/Scenes/PitchScene.unity
     guid: 2de92049be6fc1c4bb5550e19ec008ef
   m_configObjects: {}
