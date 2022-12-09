@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         {
             gameObject.transform.forward = move;
         }
+        
 
         // Changes the height position of the player..
         if (Input.GetButtonDown("Jump") && IsGrounded())
