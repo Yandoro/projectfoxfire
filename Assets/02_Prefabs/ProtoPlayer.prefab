@@ -132,6 +132,7 @@ MonoBehaviour:
   playerSpeed: 4.5
   jumpHeight: 2
   gravityValue: -11.5
+  distToGround: 0
 --- !u!143 &5757291070938973122
 CharacterController:
   m_ObjectHideFlags: 0
