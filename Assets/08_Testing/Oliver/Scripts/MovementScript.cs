@@ -8,6 +8,8 @@ public class MovementScript : MonoBehaviour
 
     public CharacterController2D controller;
     public Animator animator;
+    public Foxfire LaunchFoxfirePrefab;
+    public Transform LaunchOffset;
 
     public float runSpeed = 40f;
 
@@ -31,6 +33,11 @@ public class MovementScript : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+        }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(LaunchFoxfirePrefab, LaunchOffset.position, transform.rotation);
         }
     }
 
