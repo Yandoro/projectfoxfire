@@ -39,10 +39,10 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -101,20 +101,182 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CheckPointFire_Animation_01
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 699
+        width: 167
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ab75c47c5811642aec8b02c4206e34
+      internalID: -1725428896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheckPointFire_Animation_02
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 698
+        width: 164
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbb3d7268bfe2943bdacd632c5323d9
+      internalID: 2116973780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheckPointFire_Animation_03
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 696
+        width: 163
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed3c34abdd6de84d826f1135d3e6744
+      internalID: -1262811361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheckPointFire_Animation_05
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 190
+        width: 161
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6a7467ed68c54488be6a476c8fb39c
+      internalID: -8960715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheckPointFire_Animation_06
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 188
+        width: 168
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f6e1f470430cd448eb8df30c1f3422
+      internalID: 1555818150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CheckPointFire_Animation_04
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 186
+        width: 149
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bff7b938f7d96489837d959e5b56de
+      internalID: 870833215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d2d80926db3b128428f1d01bb1d074d6
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CheckPointFire_Animation_02: 2116973780
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderFlameActive_spritesheet_0: -1629987044
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderFlameActive_spritesheet_8: -1944470010
+      CheckPointFire_Animation_04: 870833215
+      CheckPointFire_Animation_03: -1262811361
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderFlameActive_spritesheet_2: 1791836877
+      CheckPointFire_Animation_05: -8960715
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderFlameActive_spritesheet_10: 1756858667
+      CheckPointFire_Animation_01: -1725428896
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderFlameActive_spritesheet_6: -1498476041
+      CheckPointFire_Animation_06: 1555818150
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderFlameActive_spritesheet_4: -1330208764
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
