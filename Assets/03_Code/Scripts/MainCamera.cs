@@ -6,6 +6,7 @@ public class MainCamera : MonoBehaviour
 {
     public float FollowSpeed;
     public float yOffset;
+    public float xOffset;
     public Transform player;
     public float camdistanz;
 
