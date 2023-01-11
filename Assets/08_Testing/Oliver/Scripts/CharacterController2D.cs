@@ -18,6 +18,8 @@ public class CharacterController2D : MonoBehaviour
     private bool m_FacingRight = true;
     private Vector3 m_Velocity = Vector3.zero;
 
+    public Animator animator;
+
     [Header("Events")]
     [Space]
 
@@ -44,7 +46,9 @@ public class CharacterController2D : MonoBehaviour
         {
             if (colliders[i].gameObject != gameObject)
             {
+                
                 m_Grounded = true;
+                animator.SetBool("IsJumping", false);
                 if (!wasGrounded)
                     OnLandEvent.Invoke();
             }
@@ -69,6 +73,7 @@ public class CharacterController2D : MonoBehaviour
 
         if (m_Grounded && jump)
         {
+            animator.SetBool("IsJumping", true);
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
         }
