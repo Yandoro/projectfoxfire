@@ -30,7 +30,8 @@ public class MovementScript : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            jump = true;           
+            jump = true;
+            animator.SetTrigger("Jumps");
         }
     }
 
