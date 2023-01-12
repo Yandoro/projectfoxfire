@@ -733,9 +733,13 @@ PrefabInstance:
       propertyPath: projectileFoxFire
       value: 
       objectReference: {fileID: 5926693846193332244, guid: 92026ccabc3043a4e8de196a03b100e4, type: 3}
+    - target: {fileID: 1495949177, guid: 1865eb175200e364d93a9870dc0a96d1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2051505734097113611, guid: 1865eb175200e364d93a9870dc0a96d1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2212212430853866454, guid: 1865eb175200e364d93a9870dc0a96d1, type: 3}
       propertyPath: m_Name

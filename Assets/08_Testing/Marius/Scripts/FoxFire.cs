@@ -36,6 +36,13 @@ public class FoxFire : MonoBehaviour
             Debug.Log(collision.name);
             Destroy(collision.gameObject);
             Destroy(gameObject);
+
+        }
+
+        if (collision.gameObject.tag == "Player")
+        {
+            Debug.Log(collision.name);
+            Destroy(gameObject);
         }
     }
 }
