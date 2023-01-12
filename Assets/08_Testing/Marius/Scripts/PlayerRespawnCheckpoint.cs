@@ -20,11 +20,21 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    IEnumerator ExampleCoroutine()
+    {
+
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(.9f);
+        transform.position = respawnPoint;
+    }
+
+
+
+        void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            transform.position = respawnPoint;
+            StartCoroutine(ExampleCoroutine());
         }
        
     }
