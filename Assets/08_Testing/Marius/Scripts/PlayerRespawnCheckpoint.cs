@@ -26,7 +26,7 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
         {
             transform.position = respawnPoint;
         }
-
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
