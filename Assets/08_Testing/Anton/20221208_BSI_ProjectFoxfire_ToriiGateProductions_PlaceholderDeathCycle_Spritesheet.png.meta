@@ -33,27 +33,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
-  nPOTScale: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -101,20 +101,363 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_01
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 4410
+        width: 813
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ef5eda5d827e34691d6d50e85bc8a3
+      internalID: -2120893411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_02
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 4410
+        width: 757
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a581f6a90e06947ae2c9e58945c99a
+      internalID: 1605122616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_03
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 4412
+        width: 698
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875baf8962950d04da1344b757bfd50a
+      internalID: 1807846906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_04
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 4395
+        width: 611
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d559807dc8ec3346a58d887f5d8dfb3
+      internalID: -519809379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_05
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 3372
+        width: 520
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d30afd3cc457146b30314174460911
+      internalID: 1008206781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_06
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 3375
+        width: 530
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bc301d1da9a4e45a46fc76ce819049
+      internalID: -972060070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_07
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 3372
+        width: 523
+        height: 590
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb04ee1411f567544a295977886a18da
+      internalID: -1146619599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_08
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 3377
+        width: 535
+        height: 604
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1c62b116e5bac438fdc3cf6bec44cd
+      internalID: 1454243632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_09
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2347
+        width: 522
+        height: 605
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0423e99646e26fb43872f9cb236b60ef
+      internalID: 342482393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 2360
+        width: 441
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8af1e7d34c6e6743816e52019abf151
+      internalID: -166721689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 2360
+        width: 334
+        height: 602
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd287fe5e5d4cc4c9b65af66bf0429e
+      internalID: 2069942533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 2376
+        width: 353
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1370c47a6348d4d9c5b13cec0e940a
+      internalID: 358764517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1450
+        width: 465
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdca4043c6d49c4494079824aed1c5c
+      internalID: 506429396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 12f6c88af275f354bb0a97c4d6183a3a
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_20: -312319332
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_24: 128420755
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_32: 649895592
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_28: 691862914
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_33: -763875473
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_11: 2069942533
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_07: -1146619599
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_31: -1723584518
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_49: 1602631492
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_04: -519809379
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_30: -153156982
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_18: -1305092780
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_43: 1437689273
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_23: 463505176
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_21: -708985226
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_22: 113153862
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_37: 1225286990
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_01: -2120893411
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_45: -194062032
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_25: -649662756
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_40: -1578198778
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_26: 442922332
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_46: -1676899422
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_03: 1807846906
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_09: 342482393
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_12: 358764517
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_27: 451599916
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_35: -1134184983
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_42: 233277921
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_41: -264024326
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_08: 1454243632
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_51: -957089620
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_17: 553508586
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_02: 1605122616
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_10: -166721689
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_15: -1123788060
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_19: -384604186
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_06: -972060070
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_44: 952206045
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_05: 1008206781
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_34: 1366877835
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_47: -485757886
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_36: -864400705
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_16: 463767208
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_13: 506429396
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderDeathCycle_Spritesheet_38: -580745494
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
