@@ -8,6 +8,7 @@ TagManager:
   - destructible
   - Enemy
   - Checkpoint
+  - FoxFireProjectile
   layers:
   - Default
   - TransparentFX

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
+    public GameObject Enemy;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,13 @@ public class EnemyBehavior : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "FoxFireProjectile")
+        {
+            Destroy(Enemy);
+        }
     }
 }

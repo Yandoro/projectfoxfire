@@ -31,7 +31,7 @@ public class FoxFire : MonoBehaviour
     {
 
 
-        if (collision.gameObject.tag == "destructible")
+        if (collision.gameObject.tag == "Enemy")
         {
             Debug.Log(collision.name);
             Destroy(collision.gameObject);
@@ -45,4 +45,6 @@ public class FoxFire : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
 }
