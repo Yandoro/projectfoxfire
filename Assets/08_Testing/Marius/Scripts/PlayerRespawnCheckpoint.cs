@@ -7,6 +7,8 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
     private Vector3 respawnPoint;
     private Rigidbody2D player;
 
+    [SerializeField] float respawntimer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,7 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
     {
 
         //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(.9f);
+        yield return new WaitForSeconds(respawntimer);
         transform.position = respawnPoint;
     }
 

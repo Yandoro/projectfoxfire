@@ -5746,6 +5746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1101174f69ad24d842e97e8b50c123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawntimer: 1
 --- !u!1 &1788882772
 GameObject:
   m_ObjectHideFlags: 0
@@ -7590,11 +7591,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 547912555, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.673138
+      value: -9.638191
       objectReference: {fileID: 0}
     - target: {fileID: 547912555, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.63321
+      value: -5.6332207
       objectReference: {fileID: 0}
     - target: {fileID: 547912556, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Follow
@@ -7618,11 +7619,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1033890040564014680, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.226862
+      value: -19.261808
       objectReference: {fileID: 0}
     - target: {fileID: 1033890040564014680, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.3332102
+      value: 3.3332207
       objectReference: {fileID: 0}
     - target: {fileID: 1033890040564014680, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_LocalPosition.z
