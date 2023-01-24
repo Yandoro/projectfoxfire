@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495949176}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.83, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5161322141792292502}
   - component: {fileID: 7291920145825419685}
   m_Layer: 3
-  m_Name: ProjectileSpawnpoint (1)
+  m_Name: Trace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,6 +186,8 @@ GameObject:
   - component: {fileID: 809402616}
   - component: {fileID: 809402617}
   - component: {fileID: 809402618}
+  - component: {fileID: 1779668441}
+  - component: {fileID: 1779668450}
   m_Layer: 3
   m_Name: PlayerTest
   m_TagString: Player
@@ -202,7 +204,7 @@ Transform:
   m_GameObject: {fileID: 2212212430853866454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2.89, z: 0}
-  m_LocalScale: {x: 1, y: 0.8, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2307005222522217389}
@@ -357,7 +359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpawnpoint: {fileID: 1495949177}
-  projectileFoxFire: {fileID: 5926693846193332244, guid: 44122d01722544f46a0f57130f7660e9, type: 3}
+  projectileFoxFire: {fileID: 5926693846193332244, guid: 92026ccabc3043a4e8de196a03b100e4, type: 3}
 --- !u!61 &809402616
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -428,6 +430,32 @@ CapsuleCollider2D:
   m_Offset: {x: 0.33086327, y: -0.23347527}
   m_Size: {x: 2.2292905, y: 1.4658583}
   m_Direction: 1
+--- !u!114 &1779668441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2212212430853866454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991411bd2544ada4598c37772c6b51a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2212212430853866455}
+--- !u!114 &1779668450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2212212430853866454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1101174f69ad24d842e97e8b50c123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawntimer: 1
 --- !u!1 &2307005222161059563
 GameObject:
   m_ObjectHideFlags: 0
