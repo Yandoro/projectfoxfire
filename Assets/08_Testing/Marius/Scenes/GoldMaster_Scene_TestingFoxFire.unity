@@ -11082,6 +11082,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3113111722424095354, guid: 47de6866a091e5d4182689132e4b1704, type: 3}
   m_PrefabInstance: {fileID: 6305112191874286249}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1153255660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 547912554, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+  m_PrefabInstance: {fileID: 1033890040663610236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1155594503
 GameObject:
   m_ObjectHideFlags: 0
@@ -20767,13 +20772,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 740047288}
     - target: {fileID: 146857485253573053, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
+    - target: {fileID: 146857485253573053, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 694697167623829608, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
+    - target: {fileID: 694697167623829608, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 769382806768437470, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
     - target: {fileID: 769382806768437470, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
@@ -20827,37 +20844,73 @@ PrefabInstance:
       value: Camera
       objectReference: {fileID: 0}
     - target: {fileID: 1293337530096952254, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
+    - target: {fileID: 1293337530096952254, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1914371907389089316, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
     - target: {fileID: 1914371907389089316, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2259682454112680549, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
+    - target: {fileID: 2259682454112680549, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2440152090560910450, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
     - target: {fileID: 2440152090560910450, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2466538792165327473, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
+    - target: {fileID: 2466538792165327473, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4800737617222808540, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
     - target: {fileID: 4800737617222808540, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5128374294800923949, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
+    - target: {fileID: 5128374294800923949, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7260988608755178684, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
+    - target: {fileID: 7260988608755178684, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8909706049271969478, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 1153255660}
     - target: {fileID: 8909706049271969478, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: parallaxEffect
       value: 0.5
