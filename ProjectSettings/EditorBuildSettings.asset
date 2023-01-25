@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/01_Level/Scenes/PitchScene.unity
+  - enabled: 0
+    path: Assets/01_Level/Scenes/Pitch_Scene.unity
     guid: 2de92049be6fc1c4bb5550e19ec008ef
+  - enabled: 1
+    path: Assets/08_Testing/Marius/Gate2_Scene_TestingFoxFire.unity
+    guid: e27ab40f05851044b84071b46da3e13a
   m_configObjects: {}

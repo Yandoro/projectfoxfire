@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: a02fbeee440357e4381d71bc3e125ec0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_03
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 613
+        width: 202
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5563995, y: 0.06587466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2151dca4e045af3479875d3bae794faf
+      internalID: 2139457101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_04
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 612
+        width: 210
+        height: 358
+      alignment: 9
+      pivot: {x: 0.5770322, y: 0.0665394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a444c0c0a4179645af0b99ec132c2e1
+      internalID: -694641067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_05
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 614
+        width: 216
+        height: 364
+      alignment: 9
+      pivot: {x: 0.5586062, y: 0.06402001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deff30c05c675d4b9ac0294f2ea2037
+      internalID: 949235130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_06
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 615
+        width: 205
+        height: 356
+      alignment: 9
+      pivot: {x: 0.6033894, y: 0.06949144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f560080ab3f6ec44fac7da096816916f
+      internalID: -1836714819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_07
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 618
+        width: 190
+        height: 356
+      alignment: 9
+      pivot: {x: 0.69081, y: 0.06563079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdeef52062a94c4a96781735893f85d
+      internalID: -1821271783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_02
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 609
+        width: 164
+        height: 284
+      alignment: 9
+      pivot: {x: 0.57262516, y: 0.08061476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4c9d9ee207ee4468ced38eff5edd90
+      internalID: 260017802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_01
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 610
+        width: 80
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5285206, y: 0.17840321}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456a42fb6f048d94ebcd962625cb5683
+      internalID: -249580682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_08
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 617
+        width: 173
+        height: 308
+      alignment: 9
+      pivot: {x: 0.72244316, y: 0.085005924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420706a387a985e4e9ceffa47486e840
+      internalID: 882712573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_09
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 109
+        width: 166
+        height: 265
+      alignment: 9
+      pivot: {x: 0.6861806, y: 0.08804275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eacdfebd18d89147974e907bf3d5d32
+      internalID: -1132322571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 114
+        width: 130
+        height: 262
+      alignment: 9
+      pivot: {x: 0.59818584, y: 0.077129334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc51c06f6ed3894ea751f76fd93c208
+      internalID: 266145513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 116
+        width: 121
+        height: 186
+      alignment: 9
+      pivot: {x: 0.52995366, y: 0.10342645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ccefa71deabc344bfb68804ea2de95
+      internalID: 881648277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cfa26f7ed6ec36c4888c422262b51a59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_02: 260017802
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_7: 650178276
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_05: 949235130
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_10: 266145513
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_19: -237497223
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_9: 156398889
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_15: -1823145469
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_10: 1875298983
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_13: -480081225
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_04: -694641067
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_03: 2139457101
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_09: -1132322571
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_4: 322327167
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_11: 881648277
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_06: -1836714819
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_14: -2077869090
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_01: -249580682
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_07: -1821271783
+      20230124_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_08: 882712573
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_6: 125981692
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_FlameCleanse_Spritesheet_16: 356770363
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
