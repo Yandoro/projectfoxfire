@@ -129,127 +129,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_02
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 4432
-        width: 725
-        height: 380
+        x: 0
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 599a28340835b454d88f58f796041062
-      internalID: 2094349177
+      spriteID: 606c8d8abf4a38b41a1e93fbaab06878
+      internalID: 1844577658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_03
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 4525
-        width: 818
-        height: 273
+        x: 1024
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bde3c5bdb74c784897f62e2c25e1528
-      internalID: 660059160
+      spriteID: 896fd010328ac674ea9984aae0cf9476
+      internalID: -203475533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_04
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 2131
-        y: 4545
-        width: 842
-        height: 250
+        x: 2048
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 344fe3552ad6ef74596fe17344b05310
-      internalID: -168049728
+      spriteID: 96a7d2d5f52f14b4585cef116efbf05b
+      internalID: 1174790589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_05
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 3183
-        y: 4442
-        width: 778
-        height: 355
+        x: 3072
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d984e98bfb226f04985fce242b15f35c
-      internalID: 1148390377
+      spriteID: 215156aaa6dd4274ab665e294c358240
+      internalID: 661170486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_06
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 123
-        y: 3407
-        width: 715
-        height: 353
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cd6a4fbab5dba14e8fc6196fba1c890
-      internalID: 1805674498
+      spriteID: c0696b7effa14de4797b612a388c0b43
+      internalID: 1627257939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_01
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1123
-        y: 3410
-        width: 757
-        height: 332
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c4c4f0069edb0458b3f7546f707133
-      internalID: 65414467
+      spriteID: 26be94e725e18024c88906a18f730a24
+      internalID: 774270412
       vertices: []
       indices: 
       edges: []
@@ -265,12 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_01: 65414467
-      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_02: 65414467
-      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_05: 1148390377
-      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_03: 660059160
-      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_04: -168049728
-      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_06: 1805674498
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_1: -203475533
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_5: 774270412
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_3: 661170486
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_4: 1627257939
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_2: 1174790589
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderJumpCycle_Spritesheet_0: 1844577658
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

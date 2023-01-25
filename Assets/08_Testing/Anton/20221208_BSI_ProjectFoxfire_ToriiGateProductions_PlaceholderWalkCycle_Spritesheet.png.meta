@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Run_01
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 4465
-        width: 860
-        height: 327
+        x: 0
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd70d6bdd1838554f9943dd5595ffb5f
-      internalID: -1379247782
+      spriteID: 85355b9a258175f4c9b23ad74ec966af
+      internalID: 1379388738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_02
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 4447
-        width: 853
-        height: 343
+        x: 1024
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 129de52720944f940914b1aca2eb93d8
-      internalID: 216045693
+      spriteID: 22913a023ff4e4649b682a3df24fbfed
+      internalID: 1255971379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_03
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 2112
-        y: 4422
-        width: 860
-        height: 368
+        x: 2054
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b485e9b356d3a25489f93a5cd50e06cc
-      internalID: 231443759
+      spriteID: a3c7c7dfd54853c4c8ddebddd4fb62e2
+      internalID: 50323694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_04
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 3108
-        y: 4417
-        width: 870
-        height: 368
+        x: 3072
+        y: 4096
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83142d296df66444ab3dd4120e7507e6
-      internalID: -1541432452
+      spriteID: 3c7480040884414419cf1ecd752edfb2
+      internalID: -1090672395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_05
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 45
-        y: 3392
-        width: 863
-        height: 350
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b31fce284149c4abf2383ed0fca579
-      internalID: -1178002707
+      spriteID: 865575a1966a12f4eadd632fde6d5a05
+      internalID: -1106494518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_06
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 3400
-        width: 858
-        height: 327
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8917c0d32932604db17c932fb849b65
-      internalID: 214145842
+      spriteID: cec6086cd71d0e94ea066dc010d8be97
+      internalID: 617886150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_07
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 2101
-        y: 3397
-        width: 840
-        height: 323
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e189f6c779bdbef4a8855abc6b9dad21
-      internalID: -1482332707
+      spriteID: f0d40cb21d431174b8966008c8c9b069
+      internalID: 1286005601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_08
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 3108
-        y: 3417
-        width: 863
-        height: 325
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56006b02067184d4a9d631be139488f0
-      internalID: -934809254
+      spriteID: 91bf0ed33d5b2404397bf4d7d08c038a
+      internalID: 1893880740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_09
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 50
-        y: 2412
-        width: 855
-        height: 320
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0642db912e1a672499564db8769db51b
-      internalID: 618552640
+      spriteID: b23cb71a55e0dd641ab09e69ad311a0a
+      internalID: -1819304531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_10
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 2395
-        width: 838
-        height: 335
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +332,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e233ff6fc3f99347800f6887593167c
-      internalID: 1998770826
+      spriteID: 07f70e68a5eb4ea4daa0708eaa53554a
+      internalID: 1662392617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_11
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_10
       rect:
         serializedVersion: 2
-        x: 2108
-        y: 2380
-        width: 848
-        height: 357
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,20 +353,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8b4c70dc517ca443affefd0681cefd5
-      internalID: -1811264895
+      spriteID: 0f95633c9189f764ab1c09eed057a4bf
+      internalID: -474700562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_12
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 3116
-        y: 2370
-        width: 865
-        height: 355
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,20 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7110d19dcbb276429e43be9ab0dffc7
-      internalID: 13110820
+      spriteID: 7523fba61b7a36b4684e7d8c3a1e65c0
+      internalID: 1974978727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_13
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_12
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1347
-        width: 860
-        height: 340
+        x: 0
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,20 +395,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9c0e1a856198540acf56bb815ce5f2
-      internalID: -1881274386
+      spriteID: c5d6fd19472b27944845d68d85180e44
+      internalID: -14778860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_14
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_13
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 1355
-        width: 845
-        height: 325
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,20 +416,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7416b86149e7354fafc846465aaa4eb
-      internalID: -600560750
+      spriteID: f239ea088be6bce4981b0fef2769df33
+      internalID: 1639829996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_15
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_14
       rect:
         serializedVersion: 2
-        x: 2116
-        y: 1352
-        width: 835
-        height: 325
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9c60b8a43660b74d9b6e37895fd1c08
-      internalID: 1609139704
+      spriteID: a7686ceea90fca048969b5f67dcb9a51
+      internalID: -293317369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Run_16
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_15
       rect:
         serializedVersion: 2
-        x: 3116
-        y: 1365
-        width: 857
-        height: 332
+        x: 3072
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,20 +458,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 162011a6ebfd9314784c96d0ed632f63
-      internalID: -1671442386
+      spriteID: f3006cbe458a34c4585fcac6104f466f
+      internalID: 1733085351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_01
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_16
       rect:
         serializedVersion: 2
-        x: 55
-        y: 320
-        width: 813
-        height: 397
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,8 +479,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23ba47ebef749764095cac2c9d1cc6d5
-      internalID: 1691189053
+      spriteID: e8f08dd2f6e7cbb4093cf84a6631d3b5
+      internalID: -566781833
       vertices: []
       indices: 
       edges: []
@@ -496,23 +496,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player_Run_01: -1379247782
-      Player_Run_03: 231443759
-      Player_Idle_01: 1691189053
-      Player_Run_05: -1178002707
-      Player_Run_11: -1811264895
-      Player_Run_15: 1609139704
-      Player_Run_14: -600560750
-      Player_Run_16: -1671442386
-      Player_Run_12: 13110820
-      Player_Run_07: -1482332707
-      Player_Run_08: -934809254
-      Player_Run_04: -1541432452
-      Player_Run_13: -1881274386
-      Player_Run_10: 1998770826
-      Player_Run_02: 216045693
-      Player_Run_09: 618552640
-      Player_Run_06: 214145842
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_3: -1090672395
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_5: 617886150
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_9: 1662392617
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_16: -566781833
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_12: -14778860
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_8: -1819304531
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_11: 1974978727
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_1: 1255971379
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_4: -1106494518
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_10: -474700562
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_7: 1893880740
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_15: 1733085351
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_6: 1286005601
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_14: -293317369
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_0: 1379388738
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_2: 50323694
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderWalkCycle_Spritesheet_13: 1639829996
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

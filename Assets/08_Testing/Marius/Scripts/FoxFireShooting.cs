@@ -9,6 +9,8 @@ public class FoxFireShooting : MonoBehaviour
     private Camera mainCam;
     private Vector3 mousePos;
 
+    [SerializeField] Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,7 @@ public class FoxFireShooting : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.C))
         {
+            anim.SetTrigger("Attacks");
             Launch();
         }
     }
