@@ -22,7 +22,7 @@ public class ReloadandQuitt : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("Gate2_Scene_TestingFoxFire");
+            SceneManager.LoadScene("GoldMaster_Scene_TestingFoxFire");
         }
     }
 }
