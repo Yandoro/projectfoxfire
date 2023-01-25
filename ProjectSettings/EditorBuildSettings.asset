@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/01_Level/Scenes/Pitch_Scene.unity
     guid: 2de92049be6fc1c4bb5550e19ec008ef
   - enabled: 1
-    path: Assets/08_Testing/Marius/Gate2_Scene_TestingFoxFire.unity
+    path: Assets/08_Testing/Marius/Scenes/GoldMaster_Scene_TestingFoxFire.unity
     guid: e27ab40f05851044b84071b46da3e13a
+  - enabled: 1
+    path: Assets/08_Testing/Oliver/MainMenu/MainMenuLevel/MainMenu.unity
+    guid: ab43464a49752224da71c16df5019654
   m_configObjects: {}
