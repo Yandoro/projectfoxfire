@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 9192185852306351594}
   - component: {fileID: 1473276105687499831}
   - component: {fileID: 132501071158419680}
+  - component: {fileID: 5119509968479149076}
+  - component: {fileID: 8884564842230175078}
   m_Layer: 0
   m_Name: broken_stone_test
   m_TagString: Untagged
@@ -115,5 +117,38 @@ PolygonCollider2D:
       - {x: 3.0259094, y: 0.7370186}
       - {x: -1.273346, y: 3.980938}
       - {x: -2.8381886, y: 0.3717239}
-      - {x: -1.9514465, y: -1.1342468}
       - {x: -2.303307, y: -1.0573194}
+--- !u!95 &5119509968479149076
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914682165258921154}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c5a40ee45348af84c863b528e085b2fa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8884564842230175078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914682165258921154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5ef745484001f4ea0ccc2f57ea3f64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 5119509968479149076}
+  colli: {fileID: 132501071158419680}
