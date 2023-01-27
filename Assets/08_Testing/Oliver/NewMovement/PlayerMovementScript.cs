@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
 {
-    public Animator animator;
 
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    private float speed = 16f;
+    private float jumpingPower = 22f;
     private bool isFacingRight = true;
 
     private float coyoteTime = 0.2f;
@@ -31,12 +30,10 @@ public class PlayerMovementScript : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (coyoteTimeCounter > 0f && Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-            animator.SetTrigger("Jumps");
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)

@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 6892096251901856284}
   - component: {fileID: 3465828929382660531}
   - component: {fileID: 4372302248774723369}
+  - component: {fileID: 1303577733527754840}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -252,7 +253,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4690215862744210472}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -278,7 +279,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4690215862744210472}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: 00dadf44ff82afb468fb111b7b95f98f, type: 2}
   m_IsTrigger: 0
@@ -306,7 +307,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4690215862744210472}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -367,6 +368,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawntimer: 1
+--- !u!114 &1303577733527754840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4690215862744210472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242c986b473f56342bf8cd0cf6228532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCollider: {fileID: 0}
 --- !u!1 &5824546015376406822
 GameObject:
   m_ObjectHideFlags: 0
