@@ -39,10 +39,10 @@ TextureImporter:
     wrapU: 0
     wrapV: 0
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -101,20 +101,308 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e6fc4596b0e6e45bf1877568110145
+      internalID: 380566259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88954a1d777a2b64888e0e71ba185121
+      internalID: -1515282828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d09df3e69d4d54f862f40d3f3b5ee9
+      internalID: 1364279253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4096
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbcf85b6f5f2b6499b6659313f1be66
+      internalID: 24188184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdae583059b7bf4e863298f5512d71a
+      internalID: 438362406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7933c1a253044eb5db21ca65c43e0
+      internalID: -1019391270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1604ba641e3cc8043be35ed954c82bbd
+      internalID: 1097850662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40f2692319314444baf3249dd485d0f
+      internalID: -1058405866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846bd3b3c2d13ba4b99bd7526d5b1f81
+      internalID: -545932235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64e8dc717068f940a00af7297af4923
+      internalID: -447081605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930a200689241ee48ada2aceee80ba1a
+      internalID: 1245046867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4f732a4f41c4842be3d43a66fcff61
+      internalID: 1092594685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a0dc4f19317723248be8a0b0561c2c7b
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_3: 24188184
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_6: 1097850662
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_10: 1245046867
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_1: -1515282828
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_9: -447081605
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_8: -545932235
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_2: 1364279253
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_7: -1058405866
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_4: 438362406
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_5: -1019391270
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_0: 380566259
+      20221208_BSI_ProjectFoxfire_ToriiGateProductions_PlaceholderRoots_Spritesheet_11: 1092594685
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
