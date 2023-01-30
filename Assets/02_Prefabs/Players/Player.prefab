@@ -32,7 +32,7 @@ Transform:
   - {fileID: 6892096251145257095}
   - {fileID: 1730813969202516328}
   m_Father: {fileID: 7613178876634695868}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4558832079075882086
 MonoBehaviour:
@@ -60,9 +60,7 @@ GameObject:
   - component: {fileID: 7613178876634695868}
   - component: {fileID: 8283550995997633787}
   - component: {fileID: 9196777053122941924}
-  - component: {fileID: 9196777053122941925}
   - component: {fileID: 4690215862744210473}
-  - component: {fileID: 4690215862744210486}
   - component: {fileID: 6892096251234259752}
   - component: {fileID: 6892096250725031686}
   - component: {fileID: 6892096250725031687}
@@ -72,6 +70,7 @@ GameObject:
   - component: {fileID: 3465828929382660531}
   - component: {fileID: 4372302248774723369}
   - component: {fileID: 1303577733527754840}
+  - component: {fileID: 3731985026430183024}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -92,7 +91,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6900742816721837061}
-  - {fileID: 9196777052841360467}
   - {fileID: 9196777053219410194}
   - {fileID: 4890289751954017781}
   m_Father: {fileID: 0}
@@ -171,31 +169,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &9196777053122941925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4690215862744210472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d6a3dafbb81980469929d3926154696, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_JumpForce: 700
-  m_MovementSmoothing: 0.066
-  m_AirControl: 0
-  m_WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 55
-  m_GroundCheck: {fileID: 9196777053219410194}
-  m_CeilingCheck: {fileID: 9196777052841360467}
-  m_CrouchDisableCollider: {fileID: 0}
-  animator: {fileID: 4690215862744210473}
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!95 &4690215862744210473
 Animator:
   serializedVersion: 4
@@ -216,21 +189,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4690215862744210486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4690215862744210472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48132e2bf6e0240429fb1dfbaeb7f50d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 9196777053122941925}
-  animator: {fileID: 4690215862744210473}
-  runSpeed: 40
 --- !u!114 &6892096251234259752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,7 +338,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 242c986b473f56342bf8cd0cf6228532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCollider: {fileID: 0}
+  playerCollider: {fileID: 6892096250725031686}
+--- !u!114 &3731985026430183024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4690215862744210472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1c24603ab3e4449a9e09a8ecb9ddd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 9196777053122941924}
+  groundCheck: {fileID: 9196777053219410194}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1 &5824546015376406822
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,37 +629,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &9196777052841360466
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9196777052841360467}
-  m_Layer: 3
-  m_Name: CeilingCheck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9196777052841360467
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9196777052841360466}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.972, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7613178876634695868}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9196777053219410197
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,5 +658,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7613178876634695868}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
