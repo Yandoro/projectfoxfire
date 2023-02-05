@@ -7,11 +7,14 @@ public class Parallax : MonoBehaviour
     private float lenght, startpos;
     public GameObject maincam;
     public float parallaxEffect;
+    [SerializeField] float yoffset = 10;
+    [SerializeField] float xoffset = 48;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        startpos = transform.position.x;
+        startpos = transform.position.x + xoffset;
         lenght = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
@@ -23,7 +26,7 @@ public class Parallax : MonoBehaviour
         float dist = (maincam.transform.position.x * parallaxEffect);
 
         //transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
-        transform.position = new Vector3(startpos + dist, 5, transform.position.z);
+        transform.position = new Vector3(startpos + dist, yoffset, transform.position.z);
 
         //if (temp > startpos + lenght) startpos += lenght;
         //else if (temp < startpos - lenght) startpos -= lenght;
