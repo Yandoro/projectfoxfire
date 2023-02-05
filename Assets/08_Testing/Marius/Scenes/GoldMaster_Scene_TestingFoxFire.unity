@@ -38019,6 +38019,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7613178876634695868, guid: 46742966387946945a9c9907c888042f, type: 3}
   m_PrefabInstance: {fileID: 6892096250353801032}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3891907069383696377 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3465828929382660531, guid: 46742966387946945a9c9907c888042f, type: 3}
+  m_PrefabInstance: {fileID: 6892096250353801032}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991411bd2544ada4598c37772c6b51a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &3891907069383696379 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 6892096250725031686, guid: 46742966387946945a9c9907c888042f, type: 3}
+  m_PrefabInstance: {fileID: 6892096250353801032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3891907069383696381 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4690215862744210473, guid: 46742966387946945a9c9907c888042f, type: 3}
+  m_PrefabInstance: {fileID: 6892096250353801032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6455460767989605385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38083,6 +38104,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3465828929382660531, guid: 46742966387946945a9c9907c888042f, type: 3}
+      propertyPath: DeathLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731985026430183024, guid: 46742966387946945a9c9907c888042f, type: 3}
+      propertyPath: Coll
+      value: 
+      objectReference: {fileID: 3891907069383696379}
+    - target: {fileID: 3731985026430183024, guid: 46742966387946945a9c9907c888042f, type: 3}
+      propertyPath: PlayerAnimator
+      value: 
+      objectReference: {fileID: 3891907069383696381}
+    - target: {fileID: 3731985026430183024, guid: 46742966387946945a9c9907c888042f, type: 3}
+      propertyPath: playerDeathScript
+      value: 
+      objectReference: {fileID: 3891907069383696377}
+    - target: {fileID: 3731985026430183024, guid: 46742966387946945a9c9907c888042f, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 3891907069383696402, guid: 46742966387946945a9c9907c888042f, type: 3}
       propertyPath: hearts.Array.data[0]
       value: 
@@ -38099,6 +38140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6892096250725031686, guid: 46742966387946945a9c9907c888042f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 00dadf44ff82afb468fb111b7b95f98f, type: 2}
     - target: {fileID: 7613178876634695868, guid: 46742966387946945a9c9907c888042f, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -38143,5 +38188,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9196777053122941924, guid: 46742966387946945a9c9907c888042f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 00dadf44ff82afb468fb111b7b95f98f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46742966387946945a9c9907c888042f, type: 3}
