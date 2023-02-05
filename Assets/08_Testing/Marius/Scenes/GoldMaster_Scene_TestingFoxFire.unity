@@ -10433,6 +10433,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &623096421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1033890040564014685, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+  m_PrefabInstance: {fileID: 1033890040663610236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &626724761
 GameObject:
   m_ObjectHideFlags: 0
@@ -37783,6 +37788,10 @@ PrefabInstance:
       propertyPath: m_TrackedObjectOffset.y
       value: 5.5
       objectReference: {fileID: 0}
+    - target: {fileID: 146857485253573053, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 162441723760571249, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -37795,6 +37804,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 694697167623829608, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
+    - target: {fileID: 769382806768437470, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 812559342734033421, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -37859,6 +37876,10 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1293337530096952254, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 1453041586129775280, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -37867,10 +37888,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1914371907389089316, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
+    - target: {fileID: 2259682454112680549, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
+    - target: {fileID: 2440152090560910450, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 2446356834446680089, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2466538792165327473, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 3363359406596019577, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -37923,6 +37960,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4800737617222808540, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 4932542655823013953, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -37935,10 +37976,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5128374294800923949, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 6836129443598085782, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7260988608755178684, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 7391462427196807639, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -37947,6 +37996,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8909706049271969478, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
+      propertyPath: maincam
+      value: 
+      objectReference: {fileID: 623096421}
     - target: {fileID: 8965902428123658391, guid: a7e7c552a43f958419442ce008d4b0a3, type: 3}
       propertyPath: m_Layer
       value: 0
