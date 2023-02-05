@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Checkpoint
   - FoxFireProjectile
+  - OneWayPlatform
   layers:
   - Default
   - TransparentFX
@@ -16,9 +17,9 @@ TagManager:
   - Cam
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - OnPlayerDeath
+  - EnemyLayer
   - 
   - 
   - 

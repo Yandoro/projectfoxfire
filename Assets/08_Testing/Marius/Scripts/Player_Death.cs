@@ -1,28 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Death : MonoBehaviour
 {
     public Animator animator;
+    private int lastLayerMask;
+    private bool isDeath = false;
+    private Rigidbody2D player;
+    public bool IsDeath { get => isDeath;  }
+    [SerializeField] private int DeathLayer;
 
-    // Start is called before the first frame update
-    void Start()
+    public void Awake()
     {
-        
+        player = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void OnDeath()
     {
-        
+        isDeath = true;
+        animator.Play("Anim_Player_Death");
+        lastLayerMask = gameObject.layer;
+        gameObject.layer = DeathLayer;
+        player.velocity = Vector3.zero;
+
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnRespawn()
     {
-        if(collision.gameObject.tag == "Enemy")
-        {
-            animator.SetTrigger("Death");
-        }
+        gameObject.layer = lastLayerMask;
+        isDeath = false;
     }
 }

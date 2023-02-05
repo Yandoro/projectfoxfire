@@ -2,23 +2,36 @@ using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
 {
-
+    
     private float horizontal;
     private float speed = 16f;
     private float jumpingPower = 22f;
     private bool isFacingRight = true;
+
 
     private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
 
     float horizontalMove = 0f;
 
+    [SerializeField] Player_Death playerDeathScript;
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] Animator PlayerAnimator;
+    [SerializeField] private Collider2D Coll;
 
+    private void Start()
+    {
+        PlayerAnimator ??= GetComponent<Animator>();
+        Coll ??= GetComponent<Collider2D>();
+    }
     void Update()
     {
+        if (playerDeathScript.IsDeath)
+        {
+            return;
+        }
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (IsGrounded())
@@ -48,12 +61,18 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (playerDeathScript.IsDeath)
+        {
+            return;
+        }
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        PlayerAnimator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
+        PlayerAnimator.SetBool("Grounded", IsGrounded());
     }
 
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.BoxCast(transform.position + (Vector3)Coll.offset, new Vector2(3.53f, 3f), 0f, -transform.up, 1f, groundLayer);
     }
 
     private void Flip()

@@ -5,14 +5,15 @@ using UnityEngine;
 public class PlayerRespawnCheckpoint : MonoBehaviour
 {
     private Vector3 respawnPoint;
-    private Rigidbody2D player;
 
     [SerializeField] float respawntimer;
+    [SerializeField] Animator playerAnimator;
+    [SerializeField] private Player_Death playerDeathScript;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<Rigidbody2D>();
+
         respawnPoint = transform.position;
     }
 
@@ -22,12 +23,15 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
 
     }
 
-    IEnumerator ExampleCoroutine()
+    IEnumerator RespawnCoroutine()
     {
 
         //yield on a new YieldInstruction that waits for 5 seconds.
         yield return new WaitForSeconds(respawntimer);
         transform.position = respawnPoint;
+        playerDeathScript.OnRespawn();
+        playerAnimator.Play("Anim_Player_Idle");
+
     }
 
 
@@ -36,7 +40,8 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            StartCoroutine(ExampleCoroutine());
+            playerDeathScript.OnDeath();
+            StartCoroutine(RespawnCoroutine());
         }
        
     }

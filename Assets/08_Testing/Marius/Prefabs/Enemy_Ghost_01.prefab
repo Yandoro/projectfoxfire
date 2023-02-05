@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 1101541967708732406}
   - component: {fileID: 2168356960175133693}
   - component: {fileID: 5372458650569792623}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FireGhost
   m_TagString: Enemy
   m_Icon: {fileID: 0}

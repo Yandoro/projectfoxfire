@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4903882580731695076}
   - component: {fileID: 6649938077389536744}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: THICC no grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,9 +95,9 @@ GameObject:
   - component: {fileID: 3113111722424095354}
   - component: {fileID: 5437449851032164389}
   - component: {fileID: 1348271106326734787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform_Standard
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,7 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4027409663867886121}
   - component: {fileID: 1791961949998416958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: THICC no grass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
