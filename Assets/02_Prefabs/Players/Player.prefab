@@ -396,8 +396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1429ede41de3b6743995aa6becadb789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
-  numOfHearts: 3
+  health: 0
+  numOfHearts: 0
   hearts:
   - {fileID: 0}
   - {fileID: 0}

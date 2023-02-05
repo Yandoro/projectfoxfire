@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 5926693846193332247}
   newSprite: {fileID: 0}
-  speed: 7
+  speed: 12
   rb: {fileID: 5926693846193332245}
 --- !u!58 &7979830885145994836
 CircleCollider2D:
