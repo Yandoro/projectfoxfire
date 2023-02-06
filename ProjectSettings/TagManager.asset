@@ -10,6 +10,7 @@ TagManager:
   - Checkpoint
   - FoxFireProjectile
   - OneWayPlatform
+  - Death
   layers:
   - Default
   - TransparentFX
