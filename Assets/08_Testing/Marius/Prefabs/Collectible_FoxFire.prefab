@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7160927135525994812}
   - component: {fileID: -6409368293351161181}
   - component: {fileID: 366483535820505058}
+  - component: {fileID: 758154854118634587}
   m_Layer: 0
   m_Name: Collectible_FoxFire
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: -2046034004, guid: be6261e0fe33ae54aafc274394d47c6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -135,3 +136,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.085
+--- !u!114 &758154854118634587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3951686146694538671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c70b469439c635e48b7a4881f6d4fb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
