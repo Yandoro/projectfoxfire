@@ -12,6 +12,10 @@ public class HealthScript : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    public float timeInvincible = 2.0f;
+    bool isInvincible = false;
+    float invincibleTimer;
+
     void Update()
     {
         if(health > numOfHearts)
@@ -38,5 +42,24 @@ public class HealthScript : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
+        if (isInvincible)
+        {
+            invincibleTimer -= Time.deltaTime;
+            if (invincibleTimer < 0)
+                isInvincible = false;
+        }
+    }
+    void OnTriggerStay2D(Collider2D other)
+
+    {
+        DealsDMGtoPlayer temp = other.gameObject.GetComponent<DealsDMGtoPlayer>();
+        if ((temp != null) && isInvincible == false)
+        {
+            isInvincible = true;
+            invincibleTimer = timeInvincible;
+            
+            health = health - 1;
+
+        }        
     }
 }

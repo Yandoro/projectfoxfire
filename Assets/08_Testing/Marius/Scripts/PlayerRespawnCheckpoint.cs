@@ -10,17 +10,19 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
     [SerializeField] Animator playerAnimator;
     [SerializeField] private Player_Death playerDeathScript;
 
+    HealthScript refScript;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        refScript = GetComponent<HealthScript>();
         respawnPoint = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+       
     }
 
     IEnumerator RespawnCoroutine()
@@ -38,17 +40,34 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
 
         void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
-        {
-            playerDeathScript.OnDeath();
-            StartCoroutine(RespawnCoroutine());
-        }
+        //DealsDMGtoPlayer temp = collision.gameObject.GetComponent<DealsDMGtoPlayer>();
+        //if (temp != null && isInvincible == false)
+        //{
+        //    refScript.health -= 1;
+        //}
+        //if (temp != null && refScript.health < 2)
+        //{
+        //    playerDeathScript.OnDeath();
+        //    StartCoroutine(RespawnCoroutine());
+        //}
        
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    //private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D other)
+
+
     {
-        if (collision.gameObject.tag == "Checkpoint")
+        DealsDMGtoPlayer temp = other.gameObject.GetComponent<DealsDMGtoPlayer>();
+        
+        if (temp != null && refScript.health < 1)
+        {
+            playerDeathScript.OnDeath();
+            StartCoroutine(RespawnCoroutine());
+            refScript.health = refScript.numOfHearts;
+        }
+
+        if (other.gameObject.tag == "Checkpoint")
         {
             Debug.Log("Happens");
             respawnPoint = transform.position;
