@@ -69,7 +69,7 @@ public class HealthScript : MonoBehaviour
         if (temp != null)
         {
             numOfHearts = numOfHearts + 1;
-            health = numOfHearts;
+            health = health +1;
         }
     }
 }
