@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/08_Testing/Marius/Scenes/GoldMaster_Scene_TestingFoxFire.unity
     guid: e27ab40f05851044b84071b46da3e13a
+  - enabled: 1
+    path: Assets/01_Level/Scenes/IntroScene/IntroVideo.unity
+    guid: df62f34aa7c669a4cad704edcac4b8df
   m_configObjects: {}
