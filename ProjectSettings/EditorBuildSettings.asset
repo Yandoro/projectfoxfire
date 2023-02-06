@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/08_Testing/Marius/Scenes/GoldMaster_Scene_TestingFoxFire.unity
     guid: e27ab40f05851044b84071b46da3e13a
   - enabled: 1
-    path: Assets/08_Testing/Oliver/MainMenu/MainMenuLevel/MainMenu.unity
+    path: Assets/01_Level/MainMenu/Level/MainMenu.unity
     guid: ab43464a49752224da71c16df5019654
   m_configObjects: {}
