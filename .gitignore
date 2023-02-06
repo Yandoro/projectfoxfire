@@ -58,3 +58,15 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/08_Testing/Marius/Animations/Cave_Light 2D 1.controller
+Assets/08_Testing/Marius/Animations/Cave_Light 2D 1.controller.meta
+Assets/08_Testing/Marius/Animations/Cave_Light 2D 2.controller
+Assets/08_Testing/Marius/Animations/Cave_Light 2D 2.controller.meta
+Assets/08_Testing/Marius/Animations/Health (2).controller
+Assets/08_Testing/Marius/Animations/Health (2).controller.meta
+Assets/08_Testing/Marius/Animations/UI_Life_Fire_Animation.anim
+Assets/08_Testing/Marius/Animations/UI_Life_Fire_Animation.anim.meta
+ProjectSettings/BurstAotSettings_StandaloneWindows.json
+ProjectSettings/CommonBurstAotSettings.json
+Assets/AddMaxHP.cs.meta
+Assets/AddMaxHP.cs
