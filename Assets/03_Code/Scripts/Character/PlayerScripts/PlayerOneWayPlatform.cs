@@ -5,7 +5,7 @@ public class PlayerOneWayPlatform : MonoBehaviour
 {
     private GameObject currentOneWayPlatform;
 
-    [SerializeField] private BoxCollider2D playerCollider;
+    [SerializeField] private Collider2D playerCollider;
 
     private void Update()
     {
@@ -36,7 +36,7 @@ public class PlayerOneWayPlatform : MonoBehaviour
 
     private IEnumerator DisableCollision()
     {
-        BoxCollider2D platformCollider = currentOneWayPlatform.GetComponent<BoxCollider2D>();
+        Collider2D platformCollider = currentOneWayPlatform.GetComponent<Collider2D>();
 
         Physics2D.IgnoreCollision(playerCollider, platformCollider);
         yield return new WaitForSeconds(0.25f);

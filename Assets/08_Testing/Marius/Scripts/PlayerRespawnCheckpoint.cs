@@ -67,6 +67,13 @@ public class PlayerRespawnCheckpoint : MonoBehaviour
             refScript.health = refScript.numOfHearts;
         }
 
+        if (other.gameObject.tag == "Death")
+        {
+            playerDeathScript.OnDeath();
+            StartCoroutine(RespawnCoroutine());
+            refScript.health = refScript.numOfHearts;
+        }
+
         if (other.gameObject.tag == "Checkpoint")
         {
             Debug.Log("Happens");
