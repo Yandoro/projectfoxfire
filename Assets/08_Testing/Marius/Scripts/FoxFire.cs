@@ -15,7 +15,7 @@ public class FoxFire : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
- 
+
         StartCoroutine(ExampleCoroutine());
     }
     IEnumerator ExampleCoroutine()
@@ -32,7 +32,7 @@ public class FoxFire : MonoBehaviour
     }
 
 
-        private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
 
 
