@@ -62,4 +62,14 @@ public class HealthScript : MonoBehaviour
 
         }        
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        AddMaxHP temp = collision.gameObject.GetComponent<AddMaxHP>();
+
+        if (temp != null)
+        {
+            numOfHearts = numOfHearts + 1;
+            health = numOfHearts;
+        }
+    }
 }
