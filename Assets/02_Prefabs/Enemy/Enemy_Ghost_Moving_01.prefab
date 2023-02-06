@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101541967690978604}
   m_Layer: 0
-  m_Name: Enemy_Ghost_01
+  m_Name: Enemy_Ghost_Moving_01
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
